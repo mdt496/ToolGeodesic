@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package z5ac4;
 
 import static java.lang.Math.*;
@@ -13,9 +9,9 @@ import static z5ac4.toolExt.*;
  * @author MDLORIAL
  */
 public class UtmToGeo {
-        private double Este, Norte,Huso,G3,H3,lat,lon;
-        private String Hemisferio;
-        private ArrayList<String []> argos = new ArrayList<>();
+    private double Este, Norte,Huso,G3,H3,lat,lon;
+    private String Hemisferio;
+    private ArrayList<String []> argos = new ArrayList<>();
         
     //Hemisferio  "N" o "S"    //Nota: Norte:= {N,P,Q,R,S,T,U,V,W,X}  Sud:= {M,L,K,J,H,G,F,E,D,C}
     public UtmToGeo(double Huso, String Hemisferio,double Este, double Norte){
@@ -62,8 +58,7 @@ public class UtmToGeo {
     public int getHuso(){
         return (int) Huso;
     }
-        
-        private void CalcUtg(){
+    private void CalcUtg(){
         double C17 = Huso;
         String F17 = Hemisferio;
         double C16 = Norte;
@@ -156,5 +151,5 @@ public class UtmToGeo {
         lat = H21;
         lon = H20;
         argos.add((String[]) result.toArray(new String[result.size()]));
-        }
+    }
 }
