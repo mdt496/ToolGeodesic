@@ -8,7 +8,7 @@ Es una herramienta escrita en java que provee la capacidad de transformar coorde
 
 ## Descargas
 * Descargar el Jar (Ejecutable):
-	[Download](https://github.com/mdt496/ToolGeodesic/archive/master.zip)
+	[Download](https://github.com/mdt496/ToolGeodesic/releases/download/1.0.0/ToolGeodesic.jar)
 * Descargar el proyecto:
 	[Github download](https://github.com/mdt496/ToolGeodesic/archive/master.zip)
 
